@@ -2,10 +2,10 @@ import MeetingTypeList from "@/components/MeetingTypeList";
 import React from "react";
 
 const Home = () => {
-  const currentTime = new Date().toLocaleTimeString(navigator.language, {
-    hour: "2-digit",
-    minute: "2-digit",
-  });
+  // const currentTime = new Date().toLocaleTimeString(navigator.language, {
+  //   hour: "2-digit",
+  //   minute: "2-digit",
+  // });
 
   const currentDate = new Date().toLocaleDateString("en-US", {
     year: "numeric",
@@ -21,7 +21,7 @@ const Home = () => {
           </h2>
           <div className="flex flex-col gap-2">
             <h1 className="text-4xl font-extrabold lg:text-6xl">
-              {currentTime}
+              {/* {currentTime} */} 12:30 PM
             </h1>
             <p className="text-lg font-medium text-sky-1">{currentDate}</p>
           </div>
